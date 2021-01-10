@@ -3,8 +3,8 @@ using namespace std;
 
 void func(int i, int& j, int p){
     i++; //local variable i
-    j++; //pointer variable
-    p++; //reference var 
+    j++; //passed as reference
+    p++;  
 }
 
 int main(){
