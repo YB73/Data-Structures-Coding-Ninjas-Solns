@@ -2,9 +2,9 @@
 using namespace std;
 
 void func(int i, int& j, int p){
-    i++;
-    j++;
-    p++;
+    i++; //local variable i
+    j++; //pointer variable
+    p++; //reference var 
 }
 
 int main(){
